@@ -1,0 +1,44 @@
+{
+  "name": "cologrinchis",
+  "version": "0.1.0",
+  "description": "set label colors in your console logs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javierlopezdeancos/cologrinchis.git"
+  },
+  "author": "javierlopezdeancos@outlook.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/javierlopezdeancos/cologrinchis/issues"
+  },
+  "homepage": "https://github.com/javierlopezdeancos/cologrinchis#readme",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "type": "module",
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.21",
+    "jest": "^26.6.3",
+    "jest-config": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "typescript": "^4.2.3"
+  }
+}
