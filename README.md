@@ -4,7 +4,7 @@ Set label colors in your chrome console logs.
 ## Activity
 ![GitHub issues](https://img.shields.io/github/issues-raw/javierlopezdeancos/cologrinchis?style=flat)
 ![GitHub all releases](https://img.shields.io/github/downloads/javierlopezdeancos/cologrinchis/total)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/javierlopezdeancos/cologrinchis/Publish%20cologrinchis%20in%20npm%20on%20release)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/javierlopezdeancos/cologrinchis/publish-cologrinchis-in-npm-on-release)
 ![npm](https://img.shields.io/npm/v/cologrinchis)
 
 ## Use it
