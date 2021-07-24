@@ -1,12 +1,31 @@
 # cologrinchis
-set label colors in your console logs
+Set label colors in your chrome console logs.
+
+## Activity
+![GitHub issues](https://img.shields.io/github/issues-raw/javierlopezdeancos/cologrinchis?style=flat)
+![GitHub all releases](https://img.shields.io/github/downloads/javierlopezdeancos/cologrinchis/total)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/javierlopezdeancos/cologrinchis/Publish%20cologrinchis%20in%20npm%20on%20release)
+![npm](https://img.shields.io/npm/v/cologrinchis)
 
 ## Use it
 
-```javasrcipt
+### Install
+
+```shell
+npm install cologrinchis --save-dev
+```
+
+### Import 
+
+Import the module from your node modules with the namespace as you want:
+
+```javascript
 import * as cologger from 'cologrinchis';
+```
 
+### Use
 
+```javascript
 cologger.warn('custom warn label', 'This is a warning');
 cologger.info('custom info label', 'This is an info');
 cologger.log('custom log label', 'This is a log');
