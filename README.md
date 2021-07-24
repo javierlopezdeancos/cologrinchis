@@ -1,4 +1,5 @@
-# cologrinchis
+!["cologrinchis logo"](assets/logo.png)
+
 Set label colors in your chrome console logs.
 
 ## Activity
@@ -15,20 +16,20 @@ Set label colors in your chrome console logs.
 npm install cologrinchis --save-dev
 ```
 
-### Import 
+### Import
 
 Import the module from your node modules with the namespace as you want:
 
 ```javascript
-import * as cologger from 'cologrinchis';
+import * as clr from 'cologrinchis';
 ```
 
 ### Use
 
 ```javascript
-cologger.warn('custom warn label', 'This is a warning');
-cologger.info('custom info label', 'This is an info');
-cologger.log('custom log label', 'This is a log');
+clr.warn('custom warn label', 'This is a warning');
+clr.info('custom info label', 'This is an info');
+clr.log('custom log label', 'This is a log');
 ```
 
 ## Example
