@@ -3,15 +3,14 @@ interface Color {
   text: string;
 }
 
-
 const warnColors: Color = {
   background: 'yellow',
   text: 'black'
 }
 
 const infoColors: Color = {
-  background: 'yellow',
-  text: 'black'
+  background: 'blue',
+  text: 'white'
 }
 
 const logColors: Color = {
