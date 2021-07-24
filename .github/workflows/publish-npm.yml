@@ -1,4 +1,4 @@
-name: Publish cologrinchis in npm on release
+name: publish-cologrinchis-in-npm-on-release
 
 on:
   release:
