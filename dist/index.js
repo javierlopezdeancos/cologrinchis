@@ -6,8 +6,8 @@ const warnColors = {
     text: 'black'
 };
 const infoColors = {
-    background: 'yellow',
-    text: 'black'
+    background: 'blue',
+    text: 'white'
 };
 const logColors = {
     background: '#e2e2e2',
