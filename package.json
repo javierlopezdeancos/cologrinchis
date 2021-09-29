@@ -2,6 +2,12 @@
   "name": "cologrinchis",
   "version": "0.1.2",
   "description": "set label colors in your console logs",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "files": [
+    "/lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/javierlopezdeancos/cologrinchis.git"
@@ -12,11 +18,6 @@
     "url": "https://github.com/javierlopezdeancos/cologrinchis/issues"
   },
   "homepage": "https://github.com/javierlopezdeancos/cologrinchis#readme",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "/dist"
-  ],
   "type": "module",
   "jest": {
     "transform": {
@@ -30,7 +31,9 @@
     ]
   },
   "scripts": {
-    "build": "npx tsc",
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
     "test": "jest",
     "test:watch": "jest --watch"
   },

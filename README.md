@@ -13,7 +13,7 @@ Set label colors in your chrome console logs.
 ### Install
 
 ```shell
-npm install cologrinchis --save-dev
+npm install cologrinchis --save
 ```
 
 ### Import
